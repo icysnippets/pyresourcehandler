@@ -11,3 +11,6 @@
 **/.coverage
 /.pytest_cache/
 /htmlcov/
+
+#Exclude build files
+/dist/
