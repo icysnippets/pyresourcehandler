@@ -1,0 +1,13 @@
+#Exclude IDEA files
+/.idea/
+
+#Exclude Python cache files
+**/__pycache__
+
+#Exclude the Python virtual environment
+/.venv/
+
+#Exclude files created by pytest/pytest-cov
+**/.coverage
+/.pytest_cache/
+/htmlcov/

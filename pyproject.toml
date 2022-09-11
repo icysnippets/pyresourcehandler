@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "exampleproject"
+version = "0.1.0"
+description = ""
+authors = ["user <user@example.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pytest-cov = "3.0.0"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov=src --cov-report html -ra -q"
+python_files = ["test_*.py", "Test*.py", "testing/python/*.py"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
