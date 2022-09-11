@@ -3,7 +3,7 @@ import tempfile
 from pathlib import Path
 import pytest
 
-from src.ResourcesHandler.ResourcesHandler import extractFile, extractDir
+from src.pyResourceHandler import extractFile, extractDir
 
 #Path to the embedded file
 _resourceFile = "file_example.txt"
@@ -14,7 +14,7 @@ _resourceInvalidPyFile = "invalid_python_example.py"
 #Path to the embedded directory
 _resourceDir = "dir_example"
 
-class TestResourcesHandler:
+class TestPyResourcesHandler:
     def testGetResourcesRootFailure(self):
 
         """
