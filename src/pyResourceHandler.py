@@ -81,7 +81,7 @@ def extractFile(
     if not fileFound:
 
         #Create an error message
-        errorMsg = f"Error: No file found matching expression '{resourceFile}'"
+        errorMsg = f"No file found matching expression '{resourceFile}'"
 
         #Throw an error message here
         raise FileNotFoundError(errorMsg)
@@ -96,7 +96,7 @@ def extractFile(
     if overwrite == False and outputPath.exists():
 
         #Create the error message
-        errorMsg = f"Error: '{outputPath}' already exists\n"
+        errorMsg = f"'{outputPath}' already exists\n"
         errorMsg += "Cannot overwrite existing file"
 
         #Throw the error
@@ -167,7 +167,7 @@ def extractDir(
     if not directoryFound:
 
         #Create an error message
-        errorMsg = f"Error: No directory found matching expression '{resourceFile}'"
+        errorMsg = f"No directory found matching expression '{resourceFile}'"
 
         #Throw an error message here
         raise FileNotFoundError(errorMsg)
@@ -176,7 +176,7 @@ def extractDir(
     if overwrite == False and outputDir.exists():
 
         #Create the error message
-        errorMsg = f"Error: '{outputDir}' already exists\n"
+        errorMsg = f"'{outputDir}' already exists\n"
         errorMsg += "Cannot overwrite existing directory"
 
         #Throw the error
