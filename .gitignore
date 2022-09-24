@@ -16,4 +16,4 @@
 /dist/
 
 #Exclude the lock file
-poetry.lock
+/poetry.lock
