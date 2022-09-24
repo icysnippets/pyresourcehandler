@@ -129,8 +129,8 @@ python-versions = ">=3.7"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "1567c0ebe7e81da2925b5c5595113ddba02bf2d4405f5fb71806b92f0b8fe196"
+python-versions = ">=3.9"
+content-hash = "2321544b3cdce74f822034282bf94901247c874d3968ee753c8cc43e1d881ac1"
 
 [metadata.files]
 attrs = [
