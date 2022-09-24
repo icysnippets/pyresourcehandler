@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyResourceHandler"
-version = "1.0.2"
+version = "1.0.3"
 description = ""
 authors = ["icySnippets <admin@icysnippets.com>"]
 readme = "README.md"
